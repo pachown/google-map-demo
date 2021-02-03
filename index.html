@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Google Map Demo</title>
+    <!-- Retrieves the google map api -->
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=<your key here>&callback=initMap&libraries=&v=weekly"
+    defer>
+    </script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!-- Japanese Map api key-->
+    <!-- <script
+         src="https://maps.googleapis.com/maps/api/js?key=<your key here>&region=JP&language=ja&callback=initMap&libraries=&v=weekly"
+         defer>
+       </script> -->
+       </head>
+
+       <body onload="load()">
+         <h1>Google Maps Demo</h1>
+         <!-- id="map required by google map api to render map -->
+         <div id="map"></div>
+
+         <div class=button-container>
+           <button class="button" id="traffic">Traffic</button>
+           <button class="button" id="bike">Bike Routes</button>
+           <button class="button" id="transit">Transit Routes</button>
+           </div>
+    <script src="./index.js">
+  </script>
+</body>
+
+</html>

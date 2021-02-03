@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+/* Google Maps will NOT RENDER without explicit sizes */
+#map {
+  height: 600px;
+  width: 100%;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  padding:0.5em 3em;
+  border:0.16em solid #02041a;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:'Roboto',sans-serif;
+  font-weight:400;
+  color:#3272e7;
+  text-align:center;
+  transition: all 0.15s;
+  display:inline-block;
+  border-radius: 25px;
+}
+.button:hover{
+color:#21dd2b;
+border-color:#3365db;
+}
+.button:active{
+color:#dd246b;
+border-color:#3e0dec;
+}
